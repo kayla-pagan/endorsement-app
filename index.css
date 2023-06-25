@@ -1,0 +1,127 @@
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box;
+}
+
+html, 
+body {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    background-color: #1B1924;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* TYPOGRAPHY */
+
+h1 {
+    font-size: 1.5625rem;
+}
+
+h2 {
+    font-size: 1.25rem;
+}
+
+form {
+    font-size: 0;
+}
+
+ul h2 {
+    font-size: 0.873rem;
+}
+
+textarea, 
+button {
+    font-size: 1.375rem;
+}
+
+input, 
+ul {
+    font-family: 'Inter', sans-serif;
+}
+
+/* LAYOUT */
+
+.container {
+    flex-direction: column;
+    max-width: 320px;
+    margin: 1.875em auto;
+}
+
+img {
+    width: 5.635em;
+    height: 5.625em;
+}
+
+.container, 
+ul {
+    display: flex;
+    align-items: center;
+}
+
+form input:first-of-type {
+    margin-right: 0.5em;
+}
+
+textarea,
+input, 
+button,
+ul {
+    width: 90%;
+}
+
+textarea, 
+input,
+button {
+    border-radius: 0.5em;
+    border: none;
+}
+
+textarea, 
+input {
+    color: #fff;
+    background-color: #444059;
+    font-size: 0.9rem;
+}
+
+textarea {
+    background-color: #444059;
+    height: 5.8125em;
+    padding: 0.8em 1.25em;
+    vertical-align: middle;
+    outline: none;
+    resize: none;
+}
+
+input {
+    width: 44%;
+    padding: 0.8em;
+    margin: 0.5em auto;
+}
+
+button {
+    color: #04131C;
+    background-color: #28A9F1;
+    font-weight: 700;
+    padding: 0.8em 0;
+    margin-bottom: 1.73em;
+}
+
+ul {
+    list-style: none;
+    flex-direction: column-reverse;
+    gap: 0.8125em;
+    padding: 0;
+}
+
+ul li {
+    padding: 0.625em 0.9em;
+    color: #1B1924;
+    background-color: #fff;
+    font-size: 0.875rem;
+    text-align: left;
+    width: 100%;
+}
